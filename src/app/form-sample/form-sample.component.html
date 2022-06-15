@@ -1,0 +1,26 @@
+<div class="container">
+  <article class="sample-column">
+      <form class="input-group-form">
+          <h4>Hello {{data}}</h4>
+          <div class="container">
+              <igx-input-group>
+                  <input igxInput name="fullName" type="text"/>
+                  <label igxLabel for="fullName">Full Name</label>
+                  <igx-suffix>
+                      <igx-icon>person</igx-icon>
+                  </igx-suffix>
+              </igx-input-group>
+              <igx-input-group>
+                <input igxInput name="Some field" type="text"/>
+                <label igxLabel for="otherfield">Some form field</label>
+                <igx-suffix>
+                    <igx-icon>person</igx-icon>
+                </igx-suffix>
+            </igx-input-group>
+          </div>
+      </form>
+      <div  igxDialogActions class="dialog-container dialog-actions">
+        <button igxButton="raised" igxRipple="white" (click)="close()">Cancel</button>
+      </div>
+  </article>
+</div>

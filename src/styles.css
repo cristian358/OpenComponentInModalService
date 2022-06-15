@@ -1,0 +1,13 @@
+@import '@angular/cdk/overlay-prebuilt.css';
+html, body {
+  font-family: Helvetica, sans-serif;
+}
+.modalBackground {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalPanel {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
+}
